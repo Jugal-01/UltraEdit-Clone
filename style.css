@@ -1,0 +1,336 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Segoe UI';
+}
+
+.navbar
+{
+    margin-top: 25px;
+    display: flex;
+}
+
+.anchor a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.anchor a:hover
+{
+    color: silver;
+}
+
+.logo
+{
+    margin-left: 150px;
+    height: 60px;
+}
+
+.icon
+{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.anchor
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 500px;
+    gap: 40px;
+}
+
+.arrow
+{
+    width: 10px;
+}
+
+.heading
+{
+    margin-top: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.para
+{
+    font-size: 25px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button button
+{
+    background: #00b6d1;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.main-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.hotfix
+{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-left: 300px;
+    gap: 5px;
+}
+
+.hotfix h3
+{
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.hotfix a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.container
+{
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10
+{
+    width: 300px;
+    height: 200px;
+}
+
+.box1
+{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10
+{
+    display: grid;
+    grid-template-rows: 125px 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.small
+{
+    font-size: 60%;
+    font-weight: 400;
+}
+
+.bit1
+{
+    background: #00b6d1;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bit2
+{
+    background: #5cb85c;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.download
+{
+    text-decoration: none;
+    color: white;
+}
+
+.container2
+{
+    height: 700px;
+    background-color: #222222;
+    color: white;
+}
+
+.grid
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para2
+{
+    margin-left: 265px;
+}
+
+.box11
+{
+    margin: 70px;
+    width: 345px;
+    height: 250px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.box11>p:first-child
+{
+    color: #00b6d1;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.box11>p:nth-child(2)
+{
+    color: black;
+}
+
+#email
+{
+    width: 80%;
+    height: 20%;
+}
+
+.btn
+{
+    margin-top: 10px;
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    background: #00b6d1;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+.para3
+{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.para3>h3
+{
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.para3 a
+{
+    text-decoration: none;
+    color: #00b6d1;
+}
+
+.lists
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.lists ul
+{
+    list-style: none;
+}
+
+.lists ul li:first-child
+{
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+
+.email
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border-color: silver;
+}
+
+.btn2
+{
+    width: 250px;
+    height: 40px;
+    background: #00b6d1;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.end
+{
+    display: flex;
+}
+
+.cr
+{
+    margin: 50px 280px;
+}
+
+.logo2
+{
+    height: 60px;
+}
+
+.social-media
+{
+    margin: 70px 0 0 150px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-media img
+{
+    height: 25px;
+}
